@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Sequência de Fibonacci em JavaScript</title>
+	</head>
+		<body>  
+			<script>  
+				var n1 = 0,  n2 = 1, next_num, i;  
+				var num = parseInt (prompt (" Insira o último termo desejado da sequência de Fibonacci"));  
+				document.write( "Sequência Fibonacci até o termo " + parseInt(num) + ": ");  
+				for ( i = 1; i <= num; i++)  
+				{  document.write (" <br> " +  n1);
+				    next_num = n1 + n2;
+				      
+				    n1 = n2;
+				    n2 = next_num;
+				}  
+				  
+			</script>  
+		</body>  
+</html> 
